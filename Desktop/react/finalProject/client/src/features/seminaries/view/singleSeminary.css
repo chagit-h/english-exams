@@ -1,0 +1,61 @@
+.single-seminary-container{
+display: flex;
+gap: 50px
+;
+margin-top: 20px;
+}
+.single-seminary-info{
+    flex: 1;
+    background-color: var(--bgsoft);
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: var(--textSoft);
+    height: max-content;
+}
+.single-seminary-img-container{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.single-semiary-form-container{
+    flex: 3;
+    background-color: var(--bgsoft);
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.single-seminary-img-container img{
+position: relative;
+    width: 100% important;
+    object-fit: contain;
+}
+.single-seminary-form{
+    display: flex;
+    flex-direction: column;
+
+}
+.single-seminary-form input,
+.single-seminary-form select{
+ padding: 20px;
+ border: solid 2px #2e374a;
+ background-color: var(--bg);
+ color: var(--text);
+ margin: 10px 0px;
+}
+.single-seminary-form label{
+ font-size: 12px;
+}
+.single-seminary-form button{
+    width: 100%;
+    padding: 20px;
+    background-color: teal;
+    color:var(--text) ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
